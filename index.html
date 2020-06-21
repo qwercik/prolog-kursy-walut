@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Kursy walut</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+		<style>
+			body {
+				font-family: 'Roboto', sans-serif;
+				color: white;
+				background: #333;
+			}
+	
+			.wrapper {
+				max-width: 600px;
+				margin: 0 auto;
+				text-align: center;
+			}
+
+			.currencies {
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+			}
+
+			.currency {
+				padding: 30px;
+				margin-bottom: 10px;
+				border-radius: 5px;
+				background: rgba(255, 255, 255, 0.03);
+			}
+
+			.currency-error {
+				color: #ee8888;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Kursy walut:</h1>
+			<ul class="currencies" id="currencies">
+			</ul>
+		</div>
+	
+		<script src="tau-prolog.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
